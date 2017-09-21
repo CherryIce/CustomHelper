@@ -26,6 +26,10 @@
 		D6536C091F727090002E99D8 /* kApiConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = D6536C081F727090002E99D8 /* kApiConstant.m */; };
 		D6536C0C1F72709A002E99D8 /* VerdictHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = D6536C0B1F72709A002E99D8 /* VerdictHelper.m */; };
 		D6536C0F1F7270B3002E99D8 /* AmDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = D6536C0E1F7270B3002E99D8 /* AmDatePicker.m */; };
+		D6F1AF4A1F73A62B00C5945E /* UIBarButtonItem+SXCreate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1AF421F73A62A00C5945E /* UIBarButtonItem+SXCreate.m */; };
+		D6F1AF4B1F73A62B00C5945E /* NSObject+SXRuntime.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1AF441F73A62A00C5945E /* NSObject+SXRuntime.m */; };
+		D6F1AF4C1F73A62B00C5945E /* UINavigationItem+SXFixSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1AF451F73A62A00C5945E /* UINavigationItem+SXFixSpace.m */; };
+		D6F1AF4D1F73A62B00C5945E /* UINavigationController+SXFullScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = D6F1AF481F73A62A00C5945E /* UINavigationController+SXFullScreen.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +90,14 @@
 		D6536C0D1F7270B3002E99D8 /* AmDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmDatePicker.h; sourceTree = "<group>"; };
 		D6536C0E1F7270B3002E99D8 /* AmDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmDatePicker.m; sourceTree = "<group>"; };
 		D6536C101F727143002E99D8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
+		D6F1AF421F73A62A00C5945E /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
+		D6F1AF431F73A62A00C5945E /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
+		D6F1AF441F73A62A00C5945E /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
+		D6F1AF451F73A62A00C5945E /* UINavigationItem+SXFixSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationItem+SXFixSpace.m"; sourceTree = "<group>"; };
+		D6F1AF461F73A62A00C5945E /* UIBarButtonItem+SXCreate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+SXCreate.h"; sourceTree = "<group>"; };
+		D6F1AF471F73A62A00C5945E /* UINavigationController+SXFullScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+SXFullScreen.h"; sourceTree = "<group>"; };
+		D6F1AF481F73A62A00C5945E /* UINavigationController+SXFullScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+SXFullScreen.m"; sourceTree = "<group>"; };
+		D6F1AF491F73A62B00C5945E /* NSObject+SXRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+SXRuntime.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +217,14 @@
 		D6536BEC1F726E07002E99D8 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D6F1AF491F73A62B00C5945E /* NSObject+SXRuntime.h */,
+				D6F1AF441F73A62A00C5945E /* NSObject+SXRuntime.m */,
+				D6F1AF461F73A62A00C5945E /* UIBarButtonItem+SXCreate.h */,
+				D6F1AF421F73A62A00C5945E /* UIBarButtonItem+SXCreate.m */,
+				D6F1AF471F73A62A00C5945E /* UINavigationController+SXFullScreen.h */,
+				D6F1AF481F73A62A00C5945E /* UINavigationController+SXFullScreen.m */,
+				D6F1AF431F73A62A00C5945E /* UINavigationItem+SXFixSpace.h */,
+				D6F1AF451F73A62A00C5945E /* UINavigationItem+SXFixSpace.m */,
 				D6536BF01F726E3A002E99D8 /* CALayer+BorderColor.h */,
 				D6536BF11F726E3A002E99D8 /* CALayer+BorderColor.m */,
 				D6536BED1F726E2C002E99D8 /* UITextView+Placeholder.h */,
@@ -373,6 +393,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6536C091F727090002E99D8 /* kApiConstant.m in Sources */,
+				D6F1AF4B1F73A62B00C5945E /* NSObject+SXRuntime.m in Sources */,
 				D6536BB21F726873002E99D8 /* ViewController.m in Sources */,
 				D6536BE41F7268F4002E99D8 /* EJAlertViewController.m in Sources */,
 				D6536BE31F7268F4002E99D8 /* UIViewController+AlertController.m in Sources */,
@@ -384,7 +405,10 @@
 				D6536C021F726FC5002E99D8 /* AreaPickView.m in Sources */,
 				D6536BF21F726E3A002E99D8 /* CALayer+BorderColor.m in Sources */,
 				D6536BEF1F726E2D002E99D8 /* UITextView+Placeholder.m in Sources */,
+				D6F1AF4D1F73A62B00C5945E /* UINavigationController+SXFullScreen.m in Sources */,
+				D6F1AF4C1F73A62B00C5945E /* UINavigationItem+SXFixSpace.m in Sources */,
 				D6536BF81F726F1A002E99D8 /* DistrictModel.m in Sources */,
+				D6F1AF4A1F73A62B00C5945E /* UIBarButtonItem+SXCreate.m in Sources */,
 				D6536C0F1F7270B3002E99D8 /* AmDatePicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -623,6 +647,7 @@
 				D6536BD61F726874002E99D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6536BD71F726874002E99D8 /* Build configuration list for PBXNativeTarget "CustomHelperTests" */ = {
 			isa = XCConfigurationList;
@@ -631,6 +656,7 @@
 				D6536BD91F726874002E99D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6536BDA1F726874002E99D8 /* Build configuration list for PBXNativeTarget "CustomHelperUITests" */ = {
 			isa = XCConfigurationList;
@@ -639,6 +665,7 @@
 				D6536BDC1F726874002E99D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
