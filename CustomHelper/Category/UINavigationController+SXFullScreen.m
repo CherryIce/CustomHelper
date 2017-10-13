@@ -11,11 +11,13 @@
 
 @implementation UIViewController (SXFullScreen)
 
--(BOOL)sx_disableInteractivePop{
+-(BOOL)sx_disableInteractivePop
+{
     return [objc_getAssociatedObject(self, @selector(sx_disableInteractivePop)) boolValue];
 }
 
--(void)setSx_disableInteractivePop:(BOOL)sx_disableInteractivePop{
+-(void)setSx_disableInteractivePop:(BOOL)sx_disableInteractivePop
+{
     objc_setAssociatedObject(self, @selector(sx_disableInteractivePop), @(sx_disableInteractivePop), OBJC_ASSOCIATION_RETAIN_NONATOMIC);
 }
 

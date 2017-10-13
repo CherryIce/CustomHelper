@@ -89,7 +89,7 @@
 		D6536C0B1F72709A002E99D8 /* VerdictHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VerdictHelper.m; sourceTree = "<group>"; };
 		D6536C0D1F7270B3002E99D8 /* AmDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmDatePicker.h; sourceTree = "<group>"; };
 		D6536C0E1F7270B3002E99D8 /* AmDatePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmDatePicker.m; sourceTree = "<group>"; };
-		D6536C101F727143002E99D8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Header.h; path = ../Header.h; sourceTree = "<group>"; };
+		D6536C101F727143002E99D8 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		D6F1AF421F73A62A00C5945E /* UIBarButtonItem+SXCreate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+SXCreate.m"; sourceTree = "<group>"; };
 		D6F1AF431F73A62A00C5945E /* UINavigationItem+SXFixSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationItem+SXFixSpace.h"; sourceTree = "<group>"; };
 		D6F1AF441F73A62A00C5945E /* NSObject+SXRuntime.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SXRuntime.m"; sourceTree = "<group>"; };
@@ -160,7 +160,6 @@
 				D6536BBB1F726873002E99D8 /* Info.plist */,
 				D6536BAA1F726873002E99D8 /* Supporting Files */,
 				D6536BEB1F726ABB002E99D8 /* PrefixHeader.pch */,
-				D6536C101F727143002E99D8 /* Header.h */,
 				D6536BF61F726F1A002E99D8 /* DistrictModel.h */,
 				D6536BF71F726F1A002E99D8 /* DistrictModel.m */,
 			);
@@ -170,6 +169,7 @@
 		D6536BAA1F726873002E99D8 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				D6536C101F727143002E99D8 /* Header.h */,
 				D6536BAB1F726873002E99D8 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -326,6 +326,7 @@
 				TargetAttributes = {
 					D6536BA61F726873002E99D8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 33F425FJKF;
 						ProvisioningStyle = Automatic;
 					};
 					D6536BBF1F726874002E99D8 = {
@@ -562,6 +563,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33F425FJKF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomHelper/PrefixHeader.pch";
 				INFOPLIST_FILE = CustomHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -574,6 +576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 33F425FJKF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomHelper/PrefixHeader.pch";
 				INFOPLIST_FILE = CustomHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
